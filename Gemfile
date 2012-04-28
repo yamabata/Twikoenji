@@ -19,6 +19,9 @@ group :assets do
   # gem 'therubyracer', :platform => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'therubyracer'
+# To use twitterboostrap
+  gem "twitter-bootstrap-rails"
 end
 
 gem 'jquery-rails'
@@ -37,3 +40,4 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
